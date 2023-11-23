@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Instalar la libreia ngx-socket-io
+https://www.npmjs.com/package/ngx-socket-io
+
+## Comando para instalar la libreria ngx-socket-io 
+npm i ngx-socket-io
+npm i ngx-socket-io --save --force  //Forzamos la instalacion de ngx
+-socket-io en angular 13
+

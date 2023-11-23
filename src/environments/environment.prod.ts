@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  weckSocketUrl:'http://localhost:5000'
 };
