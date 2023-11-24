@@ -25,4 +25,17 @@ export class WebsocketService {
       this.socketStatus = false;
     });
   }
+
+  //Emitir todos los eventos que se ejecuten en la aplicacion
+  /**
+   *
+   * @param evento: Evento que queremos emitir
+   * @param payload: Informacion que quiero enviar
+   * @param callback: Funcion que queremos ejecutar despues de ejecutar el emit
+   */
+  emitir(evento: string, payload?: any, callback?: Function) {
+
+    console.log('Emitiendo', evento);
+    this.socket.emit(evento, payload, callback);
+  }
 }
